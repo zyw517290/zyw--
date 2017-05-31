@@ -1,0 +1,366 @@
+body,
+div,
+header,
+h1,
+dl,
+dt,
+dd,
+a,
+ul,
+li,
+p,
+span,
+strong,
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-color: #f0f0f0;
+	font-family: "\5FAE\8F6F\96C5\9ED1", tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+
+.we-header {
+	width: 100%;
+	height: 45px;
+	background-color: #ffffff;
+	border: 1px solid #d6d6d6;
+	border-bottom: 2px solid #cccccc;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 99999;
+}
+
+.we-header .header-left {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 7px 0 0 15px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.we-header .header-left .header-img {
+	width: 32px;
+	height: 32px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.we-header .header-left .header-img .img {
+	max-height: 32px;
+	max-width: 32px;
+	vertical-align: middle;
+}
+
+.we-header .right-content {
+	margin-left: 53px;
+	line-height: 45px;
+	color: #61646d;
+	font-size: 15px;
+	font-weight: 900px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	margin-right: 15px;
+}
+
+.we-footer {
+	background-color: #FFFFFF;
+	border: 1px solid #cdcdcd;
+	border-top: 2px solid #cdcdcd;
+	border-bottom: 2px solid #cdcdcd;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0 10px;
+	box-sizing: border-box;
+	z-index: 99999;
+}
+
+.we-footer .uploadImg {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: url(../img/upload.png) no-repeat left top;
+	background-size: 35px 35px;
+	position: fixed;
+	left: 10px;
+	bottom: 12px;
+}
+
+.we-footer .sendMessage {
+	margin: 10px 70px 10px 46px;
+	line-height: 33px;
+	border: 1px solid #a0a0a0;
+	max-height: 165px;
+	overflow-y: auto;
+	border-radius: 8px;
+}
+
+.we-footer .referRight {
+	position: fixed;
+	right: 10px;
+	bottom: 12px;
+}
+
+.we-footer .referRight .refer {
+	width: 60px;
+	height: 33px;
+	background-color: #45a0ef;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	outline: none;
+}
+
+.we-main {
+	margin: 60px 0 60px 0;
+	z-index: 99998;
+}
+
+.we-main .main-message {
+	margin: 30px 24px 0 24px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.we-main .main-message .title {
+	line-height: 46px;
+	margin: 0 10px;
+	text-align: center;
+	border-bottom: 1px solid #cdcdcd;
+	font-weight: normal;
+	font-size: 16px;
+	color: #000000;
+}
+
+.we-main .main-message .content {
+	padding: 10px 0;
+	margin: 0 10px;
+	color: #000000;
+}
+
+.we-main .main-time {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.we-main .main-timer {
+	margin-top: 30px;
+}
+
+.we-main .main-time .time {
+	padding: 4px;
+	background-color: #cfcfcf;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.we-main .main-content {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.we-main .main-content .main-content-left {
+	float: left;
+	width: 42px;
+	height: 42px;
+}
+
+.we-main .main-content .main-content-left .main-content-left-img {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 42px;
+	height: 42px;
+}
+
+.we-main .main-content .main-content-left .main-content-left-img .img {
+	max-height: 42px;
+	max-width: 42px;
+	vertical-align: middle;
+}
+
+.we-main .main-content .main-content-cneter {
+	margin: 0 50px;
+	position: relative;
+}
+
+.we-main .main-content .main-content-cneter .content-name {
+	font-size: 11px;
+	color: #636363;
+	margin-bottom: 3px;
+}
+
+.we-main .main-content .main-content-cneter .contentChat {
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #161616;
+	word-break: break-all;
+}
+
+.we-main .main-content .main-content-cneter .leftArrow {
+	width: 8px;
+	height: 9px;
+	background: url(../img/leftarrow.png) no-repeat left top;
+	background-size: 8px 9px;
+	position: absolute;
+	left: -6px;
+	top: 31px;
+}
+
+.we-main .sexRecord {
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.we-main .sexRecord .headeImg {
+	float: right;
+	width: 42px;
+	height: 42px;
+	border: 1px solid #dcdcdc;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.we-main .sexRecord .headeImg .headeImg-wrap {
+	width: 42px;
+	height: 42px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.we-main .sexRecord .headeImg .headeImg-wrap img {
+	max-height: 42px;
+	max-width: 42px;
+	vertical-align: middle;
+}
+
+.we-main .sexRecord .rightChat {
+	margin: 0 50px;
+	text-align: right;
+	position: relative;
+}
+
+.we-main .sexRecord .rightChat .wrapCenter {
+	background-color: #a0e759;
+	border: 1px solid #ccccca;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 16px;
+	color: #000000;
+	display: inline-block;
+	word-break: break-all;
+}
+
+.we-main .sexRecord .rightArrow {
+	width: 6px;
+	height: 9px;
+	background: url(../img/rightarrow.png) no-repeat left top;
+	background-size: 6px 9px;
+	position: absolute;
+	right: -5px;
+	top: 15px;
+}
+
+.we-main .main-content-voice .main-content-cneter .contentChat {
+	background: url(../img/audio.png) no-repeat left top;
+	background-size: 205px 40px;
+	width: 205px;
+	height: 40px;
+	border: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:370px) {
+	.we-main .main-content-voice .main-content-cneter .contentChat {
+		background: url(../img/audio.png) no-repeat left top;
+		background-size: 205px 40px;
+		width: 165px;
+		height: 40px;
+		border: none;
+	}
+	.we-main .main-content-voice .main-content-cneter {
+		position: relative;
+	}
+	.we-main .main-content-voice .main-content-cneter .voice-time {
+		width: 30px;
+		position: absolute;
+		left: 180px;
+		top: 32px;
+		font-size: 10px;
+		color: #a2a2a2;
+	}
+}
+
+.we-main .main-content-voice .main-content-cneter {
+	position: relative;
+}
+
+.we-main .main-content-voice .main-content-cneter .voice-time {
+	position: absolute;
+	left: 210px;
+	top: 32px;
+	font-size: 10px;
+	color: #a2a2a2;
+}
+
+@media only screen and (min-width:320px) and (max-width:370px) {
+	.we-main .main-content-voice .main-content-cneter {
+		position: relative;
+	}
+	.we-main .main-content-voice .main-content-cneter .voice-time {
+		width: 30px;
+		position: absolute;
+		left: 170px;
+		top: 32px;
+		font-size: 10px;
+		color: #a2a2a2;
+	}
+}
+
+.we-main .main-content-voice .main-content-cneter .contentChat {
+	position: relative;
+}
+.we-main .main-content-voice .main-content-cneter .contentChat .voiceWave {
+	display:block;
+	width: 12px;
+	height: 17px;
+	background: url(../img/au3.png) no-repeat left top;
+	background-size: 12px 17px;
+	position: absolute;
+	left: 15px;
+	top: 12px;
+}
+
+.we-main .main-content-imag .main-content-cneter .contentChat .img {
+	width: 50px;
+	height: 50px;
+	margin:0 3px;
+}
+
+.we-main .sexRecord-img .rightChat .wrapCenter .img {
+	width: 50px;
+	height: 50px;
+	margin:0 3px;
+}

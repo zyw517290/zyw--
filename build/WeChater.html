@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>微信</title>
+		<link rel="stylesheet" href="flow.css" />		
+		<script type="text/javascript" src="./bundle.js"></script>
+	</head>
+
+	<body>
+		<div class="we-header">
+			<div class="header-left">
+				<a href="javascript:;" class="header-img">
+					<img src="../app/img/2.png" class="img" />
+				</a>
+			</div>
+			<p class="right-content">
+				杨立峰 可能帮忙联系北上广等全国专家
+			</p>
+		</div>
+		<div class="we-main">
+			<div class="main-message">
+				<h4 class="title">欢迎您加入杨立峰医生服务站</h4>
+				<p class="content">查看医生分享的文章、同志，也可以和乡医、乡亲们聊天</p>
+			</div>
+			<div class="wrap-main" v-for="x in numList" id="myapp">
+				<!--左边内容-->
+				<div class="leftContent" v-if="x.type=='leftText'">
+					<div class="main-time">
+						<span class="time">{{x.dateTime}}</span>
+					</div>
+					<div class="main-content">
+						<div class="main-content-left">
+							<a href="javascript:;" class="main-content-left-img">
+								<img v-bind:src="x.headImage" class="img" />
+							</a>
+						</div>
+						<div class="main-content-cneter">
+							<p class="content-name">{{x.name}}</p>
+							<div class="contentChat">
+								{{x.content}}
+							</div>
+							<div class="leftArrow"></div>
+						</div>
+					</div>															
+				</div>	
+				<!--右边内容-->				
+				<div class="rightContent" v-if="x.type=='rightText'">
+					<div class="main-time main-timer">
+						<span class="time">{{x.dateTime}}</span>				
+					</div>
+					<div class="sexRecord">				
+						<div class="headeImg">
+							<a href="javascript:;" class="headeImg-wrap">
+								<img :src="x.headImage"/>
+							</a>
+						</div>
+						<div class="rightChat">
+							<span class="wrapCenter">{{x.content}}</span>
+							<div class="rightArrow"></div>					
+						</div>				
+					</div>
+				</div>								
+				<!--左边语音-->
+				<div class="leftAudio" v-if="x.type=='leftSound'">
+					<div class="main-time">
+						<span class="time">{{x.dateTime}}</span>				
+					</div>
+					<div class="main-content main-content-voice">
+						<div class="main-content-left">
+							<a href="javascript:;" class="main-content-left-img">
+								<img :src="x.headImage" class="img"/>
+							</a>
+						</div>
+						<div class="main-content-cneter">
+							<p class="content-name">{{x.name}}</p>
+							<div class="contentChat">
+								<!--<audio></audio>-->
+								<!--<audio preload="auto" hidden="true"><source src="img/weixinAudio.mp3" type="audio/mpeg"></audio>-->
+								<span class="voiceWave"></span>
+							</div>
+							<span class="voice-time">{{x.sound.duration}}</span>
+						</div>				
+					</div>
+				</div>										
+				<!--右边图片-->
+				<div class="rightImages" v-if="x.type=='rightImage'">
+					<div class="main-time main-timer">
+						<span class="time">{{ x.dateTime }}</span>				
+					</div>
+					<div class="sexRecord sexRecord-img">		
+						<div class="headeImg">
+							<a href="javascript:;" class="headeImg-wrap">
+								<img :src="x.headImage" class="img"/>
+							</a>
+						</div>
+						<div class="rightChat">
+							<span class="wrapCenter">
+								<img  v-for="y in (x.imageArray)" v-bind:src="y.turl" class="img"/>					
+							</span>	
+							<div class="rightArrow"></div>				
+						</div>				
+					</div>
+				</div>								
+				<!--左边图片-->
+				<div class="rightImages" v-if="x.type=='leftImage'">
+					<div class="main-time main-timer">
+						<span class="time">{{ x.dateTime }}</span>				
+					</div>
+					<div class="main-content main-content-imag">
+						<div class="main-content-left">
+							<a href="javascript:;" class="main-content-left-img">
+								<img :src="x.headImage" class="img"/>
+							</a>
+						</div>
+						<div class="main-content-cneter">
+							<p class="content-name">王守财</p>
+							<div class="contentChat">
+								<img v-for="y in (x.imageArray)" v-bind:src="y.turl" class="img"/>
+							</div>
+							<div class="leftArrow"></div>
+						</div>				
+					</div>
+				</div>
+			</div>																					
+		</div>
+		<div class="we-footer">
+			<a href="javascript:;" class="uploadImg"></a>
+			<div class="sendMessage" contenteditable="true">
+			</div>
+			<p class="referRight">
+				<input type="button" class="refer" value="发送" />
+			</p>
+		</div>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,255 @@
+{
+  "communication": {
+    "posts": [
+      {
+        "postId": "1",
+        "dateTime": "2017.01.20 18:36",
+        "type": "leftText",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "请喜郎中帮我看看这个患者的疑难杂症。",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "2",
+        "dateTime": "2017.01.20 18:37",
+        "type": "rightText",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "怎么了?",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "3",
+        "dateTime": "2017.01.20 18:38",
+        "type": "leftSound",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "4",
+        "dateTime": "2017.01.20 18:39",
+        "type": "rightSound",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "3",
+        "dateTime": "2017.01.20 18:38",
+        "type": "leftSound",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "4",
+        "dateTime": "2017.01.20 18:39",
+        "type": "rightSound",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "3",
+        "dateTime": "2017.01.20 18:38",
+        "type": "leftSound",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "4",
+        "dateTime": "2017.01.20 18:39",
+        "type": "rightSound",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "5",
+        "dateTime": "2017.01.20 18:40",
+        "type": "leftImage",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": [
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          },
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          }
+        ]
+      },
+      {
+        "postId": "5",
+        "dateTime": "2017.01.20 18:41",
+        "type": "rightImage",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": [
+          {
+            "turl": "img/pic1.png",
+            "murl": "http://localhost/app/image/pic1.png",
+            "url": "http://localhost/app/image/pic1.png",
+            "size": "308111"
+          },
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          }
+        ]
+      },
+      {
+        "postId": "4",
+        "dateTime": "2017.01.20 18:39",
+        "type": "rightSound",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "3",
+        "dateTime": "2017.01.20 18:38",
+        "type": "leftSound",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "4",
+        "dateTime": "2017.01.20 18:39",
+        "type": "rightSound",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "http://localhost/test/1.mp3",
+          "duration": "26秒"
+        },
+        "imageArray": []
+      },
+      {
+        "postId": "5",
+        "dateTime": "2017.01.20 18:40",
+        "type": "leftImage",
+        "name": "王守财",
+        "headImage": "img/2.png",
+        "content": "",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": [
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          },
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          }
+        ]
+      },
+      {
+        "postId": "5",
+        "dateTime": "2017.01.20 18:41",
+        "type": "rightImage",
+        "name": "喜来乐",
+        "headImage": "img/1.png",
+        "content": "",
+        "sound": {
+          "url": "",
+          "duration": ""
+        },
+        "imageArray": [
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          },
+          {
+            "turl": "img/pic1.png",
+            "murl": "img/pic1.png",
+            "url": "img/pic1.png",
+            "size": "308111"
+          }
+        ]
+      }
+    ],
+    "end": "0",
+    "lastPostId": "5326907301"
+  }
+}
